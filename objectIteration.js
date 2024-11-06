@@ -61,7 +61,7 @@ function countSweetFruits(fruits) {
   return fruits.filter((fruit) => fruit.taste.toLowerCase() === "sweet").length;
 }
 // console.log(countSweetFruits(fruits)); // Outputs: 4
-
+//
 // 5) 🌶️🌶️🌶️ Write a function `fruitByTaste` that takes an array of fruit objects `fruits` and returns an object where the keys are tastes and the values are arrays of fruit names
 function fruitByTaste(fruits) {
   return fruits.reduce((result, fruit) => {
